@@ -75,9 +75,23 @@ def prune_log_for_ai(raw_log_json):
     
     # Define only the keys the AI actually needs to write the story
     keys_to_keep = [
-        "UtcTime", "EventID", "ProcessId", "ParentProcessId", 
-        "Image", "ParentImage", "CommandLine", "TargetImage", 
-        "GrantedAccess", "TargetObject", "DestinationIp", "DestinationPort"
+    # 1. Timeline & Event Type
+    "UtcTime", "EventID", 
+    
+    # 2. Process Execution & Identity (Events 1, 10)
+    "ProcessId", "ParentProcessId", "Image", "ParentImage", "CommandLine", "User",
+    
+    # 3. Process Access / Credential Theft (Event 10)
+    "TargetImage", "GrantedAccess", 
+    
+    # 4. Network Connections (Event 3)
+    "DestinationIp", "DestinationPort", "Protocol",
+    
+    # 5. Registry Persistence (Events 12, 13)
+    "TargetObject", "Details",
+    
+    # 6. File Activity / Ransomware (Event 11)
+    "TargetFilename"
     ]
     
     # Create a new, skinny dictionary
