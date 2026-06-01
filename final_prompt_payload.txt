@@ -1,0 +1,1728 @@
+--- LOG_ID: 1 ---
+{"UtcTime": "2020-08-07 14:32:22.692", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 2 ---
+{"UtcTime": "2020-08-07 14:32:22.692", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 3 ---
+{"UtcTime": "2020-08-07 14:32:22.692", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 4 ---
+{"UtcTime": "2020-08-07 14:32:22.822", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 5 ---
+{"UtcTime": "2020-08-07 14:32:22.751", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 6 ---
+{"UtcTime": "2020-08-07 14:32:24.960", "EventID": 12, "ProcessId": "3120", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 7 ---
+{"UtcTime": "2020-08-07 14:32:26.946", "EventID": 12, "ProcessId": "3532", "Image": "C:\\windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 8 ---
+{"UtcTime": "2020-08-07 14:32:26.946", "EventID": 12, "ProcessId": "3532", "Image": "C:\\windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 9 ---
+{"UtcTime": "2020-08-07 14:32:27.675", "EventID": 12, "ProcessId": "1448", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 10 ---
+{"UtcTime": "2020-08-07 14:32:27.916", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 11 ---
+{"UtcTime": "2020-08-07 14:32:18.896", "EventID": 3, "ProcessId": "3532", "Image": "C:\\Windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "389"}
+
+--- LOG_ID: 12 ---
+{"UtcTime": "2020-08-07 14:32:18.896", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "389"}
+
+--- LOG_ID: 13 ---
+{"UtcTime": "2020-08-07 14:32:27.843", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 14 ---
+{"UtcTime": "2020-08-07 14:32:29.677", "EventID": 11, "ProcessId": "1436", "Image": "C:\\windows\\System32\\svchost.exe"}
+
+--- LOG_ID: 15 ---
+{"UtcTime": "2020-08-07 14:32:19.629", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.39.5", "DestinationPort": "56142"}
+
+--- LOG_ID: 16 ---
+{"UtcTime": "2020-08-07 14:32:33.040", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 17 ---
+{"UtcTime": "2020-08-07 14:32:32.969", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 18 ---
+{"UtcTime": "2020-08-07 14:32:37.019", "EventID": 12, "ProcessId": "1492", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 19 ---
+{"UtcTime": "2020-08-07 14:32:38.833", "EventID": 10, "ProcessId": "1784", "TargetImage": "MemCompression", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 20 ---
+{"UtcTime": "2020-08-07 14:32:39.599", "EventID": 12, "ProcessId": "3280", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 21 ---
+{"UtcTime": "2020-08-07 14:32:41.177", "EventID": 11, "ProcessId": "1560", "Image": "C:\\windows\\System32\\svchost.exe"}
+
+--- LOG_ID: 22 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 10, "ProcessId": "908", "TargetImage": "C:\\windows\\system32\\backgroundTaskHost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 23 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 12, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting\\TermReason\\2272"}
+
+--- LOG_ID: 24 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 13, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting\\TermReason\\2272\\Terminator"}
+
+--- LOG_ID: 25 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 13, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting\\TermReason\\2272\\Reason"}
+
+--- LOG_ID: 26 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 13, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting\\TermReason\\2272\\CreationTime"}
+
+--- LOG_ID: 27 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 13, "ProcessId": "2272", "Image": "C:\\windows\\system32\\backgroundTaskHost.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-1363495622-3806888128-621328882-1104\\Microsoft.Windows.Cortana_cw5n1h2txyewy"}
+
+--- LOG_ID: 28 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 12, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows NT\\CurrentVersion\\HostActivityManager"}
+
+--- LOG_ID: 29 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 12, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows NT\\CurrentVersion\\HostActivityManager"}
+
+--- LOG_ID: 30 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 12, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows NT\\CurrentVersion\\HostActivityManager\\CommitHistory"}
+
+--- LOG_ID: 31 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 12, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows NT\\CurrentVersion\\HostActivityManager\\CommitHistory\\Microsoft.Windows.Cortana_cw5n1h2txyewy!CortanaUI"}
+
+--- LOG_ID: 32 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 13, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows NT\\CurrentVersion\\HostActivityManager\\CommitHistory\\Microsoft.Windows.Cortana_cw5n1h2txyewy!CortanaUI\\Pure"}
+
+--- LOG_ID: 33 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 12, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104_Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\SystemAppData\\Microsoft.Windows.Cortana_cw5n1h2txyewy"}
+
+--- LOG_ID: 34 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 12, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104_Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\SystemAppData\\Microsoft.Windows.Cortana_cw5n1h2txyewy\\HAM\\AUI"}
+
+--- LOG_ID: 35 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 12, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104_Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\SystemAppData\\Microsoft.Windows.Cortana_cw5n1h2txyewy\\HAM\\AUI\\CortanaUI"}
+
+--- LOG_ID: 36 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 12, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104_Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\SystemAppData\\Microsoft.Windows.Cortana_cw5n1h2txyewy\\HAM\\AUI\\CortanaUI\\V1"}
+
+--- LOG_ID: 37 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 12, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104_Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\SystemAppData\\Microsoft.Windows.Cortana_cw5n1h2txyewy\\HAM\\AUI\\CortanaUI\\V1\\LU"}
+
+--- LOG_ID: 38 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 13, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104_Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\SystemAppData\\Microsoft.Windows.Cortana_cw5n1h2txyewy\\HAM\\AUI\\CortanaUI\\V1\\LU\\PCT"}
+
+--- LOG_ID: 39 ---
+{"UtcTime": "2020-08-07 14:32:44.286", "EventID": 13, "ProcessId": "908", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104_Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\SystemAppData\\Microsoft.Windows.Cortana_cw5n1h2txyewy\\HAM\\AUI\\CortanaUI\\V1\\LU\\ICT"}
+
+--- LOG_ID: 40 ---
+{"UtcTime": "2020-08-07 14:32:45.683", "EventID": 11, "ProcessId": "5680", "Image": "C:\\windows\\system32\\wbem\\wmiprvse.exe"}
+
+--- LOG_ID: 41 ---
+{"UtcTime": "2020-08-07 14:32:45.683", "EventID": 11, "ProcessId": "5680", "Image": "C:\\windows\\system32\\wbem\\wmiprvse.exe"}
+
+--- LOG_ID: 42 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 43 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 44 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 45 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 46 ---
+{"UtcTime": "2020-08-07 14:32:45.802", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 47 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 48 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 49 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy"}
+
+--- LOG_ID: 50 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\Cache"}
+
+--- LOG_ID: 51 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 52 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 53 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 54 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 55 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 56 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 57 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 58 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKU\\.DEFAULT\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Network\\Location Awareness"}
+
+--- LOG_ID: 59 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\History"}
+
+--- LOG_ID: 60 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\History\\DCName"}
+
+--- LOG_ID: 61 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\History\\NetworkName"}
+
+--- LOG_ID: 62 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 63 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 64 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 65 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 66 ---
+{"UtcTime": "2020-08-07 14:32:46.436", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 67 ---
+{"UtcTime": "2020-08-07 14:32:46.452", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 68 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\History"}
+
+--- LOG_ID: 69 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\History\\IsSlowLink"}
+
+--- LOG_ID: 70 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 71 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 72 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 10, "ProcessId": "340", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 73 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\DataStore\\Machine"}
+
+--- LOG_ID: 74 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\DataStore\\Machine"}
+
+--- LOG_ID: 75 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\DataStore\\Machine\\0"}
+
+--- LOG_ID: 76 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\DataStore\\Machine\\0\\szName"}
+
+--- LOG_ID: 77 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\DataStore\\Machine"}
+
+--- LOG_ID: 78 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\DataStore\\Machine"}
+
+--- LOG_ID: 79 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\DataStore\\Machine\\0"}
+
+--- LOG_ID: 80 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\DataStore\\Machine\\0\\szTargetName"}
+
+--- LOG_ID: 81 ---
+{"UtcTime": "2020-08-07 14:32:46.545", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\ServiceInstances"}
+
+--- LOG_ID: 82 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\NextRefreshMode"}
+
+--- LOG_ID: 83 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\NextRefreshReason"}
+
+--- LOG_ID: 84 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\LastExtensionMadeSyncRequest"}
+
+--- LOG_ID: 85 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine"}
+
+--- LOG_ID: 86 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\Extension-List"}
+
+--- LOG_ID: 87 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\Extension-List\\{00000000-0000-0000-0000-000000000000}"}
+
+--- LOG_ID: 88 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\Extension-List\\{00000000-0000-0000-0000-000000000000}\\StartTimeLo"}
+
+--- LOG_ID: 89 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\Extension-List\\{00000000-0000-0000-0000-000000000000}\\StartTimeHi"}
+
+--- LOG_ID: 90 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\Extension-List\\{00000000-0000-0000-0000-000000000000}\\EndTimeLo"}
+
+--- LOG_ID: 91 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\Extension-List\\{00000000-0000-0000-0000-000000000000}\\EndTimeHi"}
+
+--- LOG_ID: 92 ---
+{"UtcTime": "2020-08-07 14:32:45.881", "EventID": 1, "ProcessId": "6504", "ParentProcessId": "1648", "Image": "C:\\Windows\\System32\\whoami.exe", "ParentImage": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "CommandLine": "\"C:\\windows\\system32\\whoami.exe\" /user"}
+
+--- LOG_ID: 93 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\Extension-List\\{00000000-0000-0000-0000-000000000000}\\Status"}
+
+--- LOG_ID: 94 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\State\\Machine\\Extension-List\\{00000000-0000-0000-0000-000000000000}\\LoggingStatus"}
+
+--- LOG_ID: 95 ---
+{"UtcTime": "2020-08-07 14:32:45.880", "EventID": 10, "ProcessId": "1648", "TargetImage": "C:\\windows\\system32\\whoami.exe", "GrantedAccess": "0x1fffff"}
+
+--- LOG_ID: 96 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 12, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\History"}
+
+--- LOG_ID: 97 ---
+{"UtcTime": "2020-08-07 14:32:45.880", "EventID": 10, "ProcessId": "2808", "TargetImage": "C:\\windows\\system32\\whoami.exe", "GrantedAccess": "0x1fffff"}
+
+--- LOG_ID: 98 ---
+{"UtcTime": "2020-08-07 14:32:46.561", "EventID": 13, "ProcessId": "1696", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Group Policy\\History\\PolicyOverdue"}
+
+--- LOG_ID: 99 ---
+{"UtcTime": "2020-08-07 14:32:45.896", "EventID": 10, "ProcessId": "7628", "TargetImage": "C:\\windows\\system32\\whoami.exe", "GrantedAccess": "0x1fffff"}
+
+--- LOG_ID: 100 ---
+{"UtcTime": "2020-08-07 14:32:45.927", "EventID": 11, "ProcessId": "1784", "Image": "C:\\windows\\system32\\svchost.exe"}
+
+--- LOG_ID: 101 ---
+{"UtcTime": "2020-08-07 14:32:45.942", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 102 ---
+{"UtcTime": "2020-08-07 14:32:45.942", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 103 ---
+{"UtcTime": "2020-08-07 14:32:45.942", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 104 ---
+{"UtcTime": "2020-08-07 14:32:46.911", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 105 ---
+{"UtcTime": "2020-08-07 14:32:46.911", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 106 ---
+{"UtcTime": "2020-08-07 14:32:46.911", "EventID": 12, "ProcessId": "2440", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKCR"}
+
+--- LOG_ID: 107 ---
+{"UtcTime": "2020-08-07 14:32:46.911", "EventID": 12, "ProcessId": "2440", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKCR"}
+
+--- LOG_ID: 108 ---
+{"UtcTime": "2020-08-07 14:32:46.911", "EventID": 12, "ProcessId": "2440", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKCR"}
+
+--- LOG_ID: 109 ---
+{"UtcTime": "2020-08-07 14:32:46.911", "EventID": 12, "ProcessId": "2440", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKCR"}
+
+--- LOG_ID: 110 ---
+{"UtcTime": "2020-08-07 14:32:46.911", "EventID": 12, "ProcessId": "2440", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKCR"}
+
+--- LOG_ID: 111 ---
+{"UtcTime": "2020-08-07 14:32:46.911", "EventID": 12, "ProcessId": "2440", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKCR"}
+
+--- LOG_ID: 112 ---
+{"UtcTime": "2020-08-07 14:32:46.911", "EventID": 12, "ProcessId": "2440", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKCR"}
+
+--- LOG_ID: 113 ---
+{"UtcTime": "2020-08-07 14:32:46.927", "EventID": 12, "ProcessId": "2440", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKCR"}
+
+--- LOG_ID: 114 ---
+{"UtcTime": "2020-08-07 14:32:46.927", "EventID": 12, "ProcessId": "2440", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKCR"}
+
+--- LOG_ID: 115 ---
+{"UtcTime": "2020-08-07 14:32:46.927", "EventID": 12, "ProcessId": "2440", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKCR"}
+
+--- LOG_ID: 116 ---
+{"UtcTime": "2020-08-07 14:32:46.927", "EventID": 10, "ProcessId": "768", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 117 ---
+{"UtcTime": "2020-08-07 14:32:46.927", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\system32\\lsass.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 118 ---
+{"UtcTime": "2020-08-07 14:32:46.927", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\system32\\lsass.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 119 ---
+{"UtcTime": "2020-08-07 14:32:45.731", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 120 ---
+{"UtcTime": "2020-08-07 14:32:47.077", "EventID": 12, "ProcessId": "3736", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-500\\Software\\Microsoft\\Windows\\CurrentVersion\\StorageSense\\Parameters\\StoragePolicy"}
+
+--- LOG_ID: 121 ---
+{"UtcTime": "2020-08-07 14:32:38.390", "EventID": 3, "ProcessId": "1696", "Image": "C:\\Windows\\System32\\svchost.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "389"}
+
+--- LOG_ID: 122 ---
+{"UtcTime": "2020-08-07 14:32:38.390", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "389"}
+
+--- LOG_ID: 123 ---
+{"UtcTime": "2020-08-07 14:32:38.400", "EventID": 3, "ProcessId": "1696", "Image": "C:\\Windows\\System32\\svchost.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "389"}
+
+--- LOG_ID: 124 ---
+{"UtcTime": "2020-08-07 14:32:38.400", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "389"}
+
+--- LOG_ID: 125 ---
+{"UtcTime": "2020-08-07 14:32:38.499", "EventID": 3, "ProcessId": "4", "Image": "System", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "445"}
+
+--- LOG_ID: 126 ---
+{"UtcTime": "2020-08-07 14:32:38.499", "EventID": 3, "ProcessId": "4", "Image": "System", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "445"}
+
+--- LOG_ID: 127 ---
+{"UtcTime": "2020-08-07 14:32:51.208", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 128 ---
+{"UtcTime": "2020-08-07 14:32:51.140", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 129 ---
+{"UtcTime": "2020-08-07 14:32:52.879", "EventID": 10, "ProcessId": "860", "TargetImage": "C:\\ProgramData\\Microsoft\\Windows Defender\\platform\\4.18.2007.8-0\\NisSrv.exe", "GrantedAccess": "0x1400"}
+
+--- LOG_ID: 130 ---
+{"UtcTime": "2020-08-07 14:32:56.353", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 131 ---
+{"UtcTime": "2020-08-07 14:32:56.540", "EventID": 10, "ProcessId": "768", "TargetImage": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 132 ---
+{"UtcTime": "2020-08-07 14:32:56.540", "EventID": 10, "ProcessId": "768", "TargetImage": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "GrantedAccess": "0x1478"}
+
+--- LOG_ID: 133 ---
+{"UtcTime": "2020-08-07 14:32:56.540", "EventID": 10, "ProcessId": "1648", "TargetImage": "C:\\windows\\system32\\lsass.exe", "GrantedAccess": "0x1010"}
+
+--- LOG_ID: 134 ---
+{"UtcTime": "2020-08-07 14:32:56.281", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 135 ---
+{"UtcTime": "2020-08-07 14:33:00.009", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 136 ---
+{"UtcTime": "2020-08-07 14:33:00.009", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 137 ---
+{"UtcTime": "2020-08-07 14:33:00.009", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 138 ---
+{"UtcTime": "2020-08-07 14:33:00.009", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 139 ---
+{"UtcTime": "2020-08-07 14:33:00.009", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 140 ---
+{"UtcTime": "2020-08-07 14:33:00.009", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 141 ---
+{"UtcTime": "2020-08-07 14:33:00.009", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 142 ---
+{"UtcTime": "2020-08-07 14:33:00.025", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 143 ---
+{"UtcTime": "2020-08-07 14:33:00.025", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 144 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 145 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 146 ---
+{"UtcTime": "2020-08-07 14:33:00.025", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 147 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 148 ---
+{"UtcTime": "2020-08-07 14:33:00.025", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 149 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 150 ---
+{"UtcTime": "2020-08-07 14:33:00.025", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 151 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 152 ---
+{"UtcTime": "2020-08-07 14:33:00.025", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 153 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 154 ---
+{"UtcTime": "2020-08-07 14:33:00.025", "EventID": 12, "ProcessId": "3140", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider"}
+
+--- LOG_ID: 155 ---
+{"UtcTime": "2020-08-07 14:33:00.025", "EventID": 13, "ProcessId": "3140", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider\\StartTime"}
+
+--- LOG_ID: 156 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 157 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 158 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 159 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 160 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 161 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 162 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 163 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 12, "ProcessId": "3268", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider"}
+
+--- LOG_ID: 164 ---
+{"UtcTime": "2020-08-07 14:33:00.008", "EventID": 13, "ProcessId": "3268", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider\\StartTime"}
+
+--- LOG_ID: 165 ---
+{"UtcTime": "2020-08-07 14:33:01.550", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 166 ---
+{"UtcTime": "2020-08-07 14:33:01.816", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 167 ---
+{"UtcTime": "2020-08-07 14:33:01.485", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 168 ---
+{"UtcTime": "2020-08-07 14:33:01.747", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 169 ---
+{"UtcTime": "2020-08-07 14:33:06.931", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 170 ---
+{"UtcTime": "2020-08-07 14:33:06.858", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 171 ---
+{"UtcTime": "2020-08-07 14:33:12.044", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 172 ---
+{"UtcTime": "2020-08-07 14:33:11.974", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 173 ---
+{"UtcTime": "2020-08-07 14:33:17.158", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 174 ---
+{"UtcTime": "2020-08-07 14:33:17.087", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 175 ---
+{"UtcTime": "2020-08-07 14:33:18.739", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 176 ---
+{"UtcTime": "2020-08-07 14:33:18.739", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 177 ---
+{"UtcTime": "2020-08-07 14:33:10.686", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "135"}
+
+--- LOG_ID: 178 ---
+{"UtcTime": "2020-08-07 14:33:10.686", "EventID": 3, "ProcessId": "976", "Image": "C:\\Windows\\System32\\svchost.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "135"}
+
+--- LOG_ID: 179 ---
+{"UtcTime": "2020-08-07 14:33:10.688", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "49674"}
+
+--- LOG_ID: 180 ---
+{"UtcTime": "2020-08-07 14:33:10.688", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "49674"}
+
+--- LOG_ID: 181 ---
+{"UtcTime": "2020-08-07 14:33:10.696", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "53"}
+
+--- LOG_ID: 182 ---
+{"UtcTime": "2020-08-07 14:33:10.696", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "61469"}
+
+--- LOG_ID: 183 ---
+{"UtcTime": "2020-08-07 14:33:10.697", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "53"}
+
+--- LOG_ID: 184 ---
+{"UtcTime": "2020-08-07 14:33:10.697", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "62815"}
+
+--- LOG_ID: 185 ---
+{"UtcTime": "2020-08-07 14:33:21.161", "EventID": 11, "ProcessId": "1740", "Image": "C:\\windows\\System32\\svchost.exe"}
+
+--- LOG_ID: 186 ---
+{"UtcTime": "2020-08-07 14:33:21.254", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 187 ---
+{"UtcTime": "2020-08-07 14:33:21.254", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 188 ---
+{"UtcTime": "2020-08-07 14:33:21.254", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 189 ---
+{"UtcTime": "2020-08-07 14:33:21.254", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 190 ---
+{"UtcTime": "2020-08-07 14:33:21.254", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 191 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 192 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 193 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 194 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 195 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 196 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 197 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 198 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 199 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 200 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 201 ---
+{"UtcTime": "2020-08-07 14:33:21.270", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 202 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 203 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 204 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 205 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 206 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 207 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 208 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 209 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 210 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 211 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 212 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 213 ---
+{"UtcTime": "2020-08-07 14:33:21.286", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 214 ---
+{"UtcTime": "2020-08-07 14:33:21.301", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 215 ---
+{"UtcTime": "2020-08-07 14:33:21.301", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 216 ---
+{"UtcTime": "2020-08-07 14:33:21.301", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 217 ---
+{"UtcTime": "2020-08-07 14:33:21.301", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 218 ---
+{"UtcTime": "2020-08-07 14:33:21.301", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 219 ---
+{"UtcTime": "2020-08-07 14:33:21.301", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 220 ---
+{"UtcTime": "2020-08-07 14:33:21.301", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 221 ---
+{"UtcTime": "2020-08-07 14:33:21.301", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 222 ---
+{"UtcTime": "2020-08-07 14:33:21.301", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 223 ---
+{"UtcTime": "2020-08-07 14:33:21.301", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 224 ---
+{"UtcTime": "2020-08-07 14:33:22.253", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 225 ---
+{"UtcTime": "2020-08-07 14:33:13.209", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "58533"}
+
+--- LOG_ID: 226 ---
+{"UtcTime": "2020-08-07 14:33:13.210", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "51907"}
+
+--- LOG_ID: 227 ---
+{"UtcTime": "2020-08-07 14:33:13.213", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "59040"}
+
+--- LOG_ID: 228 ---
+{"UtcTime": "2020-08-07 14:33:13.214", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "58564"}
+
+--- LOG_ID: 229 ---
+{"UtcTime": "2020-08-07 14:33:13.217", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "51907"}
+
+--- LOG_ID: 230 ---
+{"UtcTime": "2020-08-07 14:33:13.218", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "56737"}
+
+--- LOG_ID: 231 ---
+{"UtcTime": "2020-08-07 14:33:13.219", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "58322"}
+
+--- LOG_ID: 232 ---
+{"UtcTime": "2020-08-07 14:33:13.220", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "58727"}
+
+--- LOG_ID: 233 ---
+{"UtcTime": "2020-08-07 14:33:13.221", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "53220"}
+
+--- LOG_ID: 234 ---
+{"UtcTime": "2020-08-07 14:33:13.222", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "55889"}
+
+--- LOG_ID: 235 ---
+{"UtcTime": "2020-08-07 14:33:13.225", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "65535"}
+
+--- LOG_ID: 236 ---
+{"UtcTime": "2020-08-07 14:33:13.227", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "61288"}
+
+--- LOG_ID: 237 ---
+{"UtcTime": "2020-08-07 14:33:13.229", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "60982"}
+
+--- LOG_ID: 238 ---
+{"UtcTime": "2020-08-07 14:33:13.230", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "60060"}
+
+--- LOG_ID: 239 ---
+{"UtcTime": "2020-08-07 14:33:13.232", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "60901"}
+
+--- LOG_ID: 240 ---
+{"UtcTime": "2020-08-07 14:33:13.235", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "62080"}
+
+--- LOG_ID: 241 ---
+{"UtcTime": "2020-08-07 14:33:13.236", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "55935"}
+
+--- LOG_ID: 242 ---
+{"UtcTime": "2020-08-07 14:33:13.239", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "55948"}
+
+--- LOG_ID: 243 ---
+{"UtcTime": "2020-08-07 14:33:13.240", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "62356"}
+
+--- LOG_ID: 244 ---
+{"UtcTime": "2020-08-07 14:33:13.241", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "57628"}
+
+--- LOG_ID: 245 ---
+{"UtcTime": "2020-08-07 14:33:13.243", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "55492"}
+
+--- LOG_ID: 246 ---
+{"UtcTime": "2020-08-07 14:33:13.248", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "61815"}
+
+--- LOG_ID: 247 ---
+{"UtcTime": "2020-08-07 14:33:13.250", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "58483"}
+
+--- LOG_ID: 248 ---
+{"UtcTime": "2020-08-07 14:33:13.251", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "61609"}
+
+--- LOG_ID: 249 ---
+{"UtcTime": "2020-08-07 14:33:13.252", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "60272"}
+
+--- LOG_ID: 250 ---
+{"UtcTime": "2020-08-07 14:33:13.255", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "61127"}
+
+--- LOG_ID: 251 ---
+{"UtcTime": "2020-08-07 14:33:13.257", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "52753"}
+
+--- LOG_ID: 252 ---
+{"UtcTime": "2020-08-07 14:33:13.258", "EventID": 3, "ProcessId": "3616", "Image": "C:\\Windows\\System32\\dns.exe", "DestinationIp": "172.18.38.5", "DestinationPort": "56873"}
+
+--- LOG_ID: 253 ---
+{"UtcTime": "2020-08-07 14:33:22.851", "EventID": 12, "ProcessId": "4164", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 254 ---
+{"UtcTime": "2020-08-07 14:33:22.181", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 255 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 12, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\NegativeCache\\001800043CBFE885_S-1-5-21-1363495622-3806888128-621328882-1104"}
+
+--- LOG_ID: 256 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 13, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\NegativeCache\\001800043CBFE885_S-1-5-21-1363495622-3806888128-621328882-1104\\NegativeCacheState"}
+
+--- LOG_ID: 257 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 13, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\NegativeCache\\001800043CBFE885_S-1-5-21-1363495622-3806888128-621328882-1104\\LastSuccessfulRequestTimestamp"}
+
+--- LOG_ID: 258 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 13, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\NegativeCache\\001800043CBFE885_S-1-5-21-1363495622-3806888128-621328882-1104\\LastAccountPersistentFailureTimestamp"}
+
+--- LOG_ID: 259 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 12, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\NegativeCache\\001800043CBFE885_S-1-5-21-1363495622-3806888128-621328882-1104\\{C89E2069-AF13-46DB-9E39-216131494B87}\\474a-87ad-2f9a87615fa3-dc1-tip.cloudapp.net_MBI_SSL"}
+
+--- LOG_ID: 260 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 13, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\NegativeCache\\001800043CBFE885_S-1-5-21-1363495622-3806888128-621328882-1104\\{C89E2069-AF13-46DB-9E39-216131494B87}\\474a-87ad-2f9a87615fa3-dc1-tip.cloudapp.net_MBI_SSL\\RequestCount"}
+
+--- LOG_ID: 261 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 13, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\NegativeCache\\001800043CBFE885_S-1-5-21-1363495622-3806888128-621328882-1104\\{C89E2069-AF13-46DB-9E39-216131494B87}\\474a-87ad-2f9a87615fa3-dc1-tip.cloudapp.net_MBI_SSL\\StartedTime"}
+
+--- LOG_ID: 262 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 13, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\NegativeCache\\001800043CBFE885_S-1-5-21-1363495622-3806888128-621328882-1104\\{C89E2069-AF13-46DB-9E39-216131494B87}\\474a-87ad-2f9a87615fa3-dc1-tip.cloudapp.net_MBI_SSL\\ErrorCode"}
+
+--- LOG_ID: 263 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 13, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\NegativeCache\\001800043CBFE885_S-1-5-21-1363495622-3806888128-621328882-1104\\{C89E2069-AF13-46DB-9E39-216131494B87}\\474a-87ad-2f9a87615fa3-dc1-tip.cloudapp.net_MBI_SSL\\FailureType"}
+
+--- LOG_ID: 264 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 12, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\ThrottleCache\\S-1-5-21-1363495622-3806888128-621328882-1104_{C89E2069-AF13-46DB-9E39-216131494B87}"}
+
+--- LOG_ID: 265 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 13, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\ThrottleCache\\S-1-5-21-1363495622-3806888128-621328882-1104_{C89E2069-AF13-46DB-9E39-216131494B87}\\ThrottleCount"}
+
+--- LOG_ID: 266 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 13, "ProcessId": "3304", "Image": "C:\\windows\\system32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\IdentityCRL\\ThrottleCache\\S-1-5-21-1363495622-3806888128-621328882-1104_{C89E2069-AF13-46DB-9E39-216131494B87}\\ThrottleStartedTime"}
+
+--- LOG_ID: 267 ---
+{"UtcTime": "2020-08-07 14:33:26.360", "EventID": 10, "ProcessId": "908", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 268 ---
+{"UtcTime": "2020-08-07 14:33:26.959", "EventID": 12, "ProcessId": "3532", "Image": "C:\\windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 269 ---
+{"UtcTime": "2020-08-07 14:33:26.959", "EventID": 12, "ProcessId": "3532", "Image": "C:\\windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 270 ---
+{"UtcTime": "2020-08-07 14:33:27.380", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 271 ---
+{"UtcTime": "2020-08-07 14:33:18.906", "EventID": 3, "ProcessId": "3532", "Image": "C:\\Windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "389"}
+
+--- LOG_ID: 272 ---
+{"UtcTime": "2020-08-07 14:33:18.906", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "389"}
+
+--- LOG_ID: 273 ---
+{"UtcTime": "2020-08-07 14:33:27.308", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 274 ---
+{"UtcTime": "2020-08-07 14:33:29.678", "EventID": 11, "ProcessId": "1436", "Image": "C:\\windows\\System32\\svchost.exe"}
+
+--- LOG_ID: 275 ---
+{"UtcTime": "2020-08-07 14:33:30.960", "EventID": 12, "ProcessId": "3120", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 276 ---
+{"UtcTime": "2020-08-07 14:33:32.490", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 277 ---
+{"UtcTime": "2020-08-07 14:33:32.417", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 278 ---
+{"UtcTime": "2020-08-07 14:33:37.599", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 279 ---
+{"UtcTime": "2020-08-07 14:33:37.527", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 280 ---
+{"UtcTime": "2020-08-07 14:33:41.185", "EventID": 11, "ProcessId": "1560", "Image": "C:\\windows\\System32\\svchost.exe"}
+
+--- LOG_ID: 281 ---
+{"UtcTime": "2020-08-07 14:33:41.462", "EventID": 13, "ProcessId": "4472", "Image": "C:\\windows\\Explorer.EXE", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Notifications\\Data\\418A073AA3BC3475"}
+
+--- LOG_ID: 282 ---
+{"UtcTime": "2020-08-07 14:33:42.721", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 283 ---
+{"UtcTime": "2020-08-07 14:33:42.649", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 284 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\smss.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 285 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\csrss.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 286 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\wininit.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 287 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\csrss.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 288 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\winlogon.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 289 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\services.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 290 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\lsass.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 291 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 292 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\fontdrvhost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 293 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\fontdrvhost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 294 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 295 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 296 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 297 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\LogonUI.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 298 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\dwm.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 299 ---
+{"UtcTime": "2020-08-07 14:33:44.832", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 300 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 301 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 302 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 303 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 304 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 305 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 306 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 307 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 308 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 309 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 310 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 311 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 312 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 313 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 314 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\vssvc.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 315 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 316 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 317 ---
+{"UtcTime": "2020-08-07 14:33:44.848", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 318 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 319 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 320 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 321 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 322 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 323 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 324 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 325 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 326 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 327 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 328 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 329 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 330 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 331 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 332 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 333 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 334 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 335 ---
+{"UtcTime": "2020-08-07 14:33:44.863", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 336 ---
+{"UtcTime": "2020-08-07 14:33:44.880", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 337 ---
+{"UtcTime": "2020-08-07 14:33:44.880", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 338 ---
+{"UtcTime": "2020-08-07 14:33:44.880", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\spoolsv.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 339 ---
+{"UtcTime": "2020-08-07 14:33:44.880", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 340 ---
+{"UtcTime": "2020-08-07 14:33:44.880", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 341 ---
+{"UtcTime": "2020-08-07 14:33:44.880", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 342 ---
+{"UtcTime": "2020-08-07 14:33:44.894", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 343 ---
+{"UtcTime": "2020-08-07 14:33:44.894", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 344 ---
+{"UtcTime": "2020-08-07 14:33:44.894", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 345 ---
+{"UtcTime": "2020-08-07 14:33:44.894", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\Sysmon.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 346 ---
+{"UtcTime": "2020-08-07 14:33:44.910", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 347 ---
+{"UtcTime": "2020-08-07 14:33:44.910", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 348 ---
+{"UtcTime": "2020-08-07 14:33:44.910", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\wbem\\unsecapp.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 349 ---
+{"UtcTime": "2020-08-07 14:33:44.910", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\taskhostw.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 350 ---
+{"UtcTime": "2020-08-07 14:33:44.910", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 351 ---
+{"UtcTime": "2020-08-07 14:33:44.910", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\SearchIndexer.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 352 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 353 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 354 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 355 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\SgrmBroker.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 356 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 357 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 358 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 359 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 360 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\csrss.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 361 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\winlogon.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 362 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\fontdrvhost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 363 ---
+{"UtcTime": "2020-08-07 14:33:44.926", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\dwm.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 364 ---
+{"UtcTime": "2020-08-07 14:33:44.941", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\rdpclip.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 365 ---
+{"UtcTime": "2020-08-07 14:33:44.941", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\sihost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 366 ---
+{"UtcTime": "2020-08-07 14:33:44.941", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 367 ---
+{"UtcTime": "2020-08-07 14:33:44.941", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 368 ---
+{"UtcTime": "2020-08-07 14:33:44.941", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 369 ---
+{"UtcTime": "2020-08-07 14:33:44.941", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 370 ---
+{"UtcTime": "2020-08-07 14:33:44.941", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\ctfmon.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 371 ---
+{"UtcTime": "2020-08-07 14:33:44.941", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\Explorer.EXE", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 372 ---
+{"UtcTime": "2020-08-07 14:33:44.957", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\DllHost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 373 ---
+{"UtcTime": "2020-08-07 14:33:44.957", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 374 ---
+{"UtcTime": "2020-08-07 14:33:44.957", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 375 ---
+{"UtcTime": "2020-08-07 14:33:44.957", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 376 ---
+{"UtcTime": "2020-08-07 14:33:44.957", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\RuntimeBroker.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 377 ---
+{"UtcTime": "2020-08-07 14:33:44.957", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\RuntimeBroker.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 378 ---
+{"UtcTime": "2020-08-07 14:33:44.957", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\SystemApps\\InputApp_cw5n1h2txyewy\\WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 379 ---
+{"UtcTime": "2020-08-07 14:33:44.957", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\DllHost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 380 ---
+{"UtcTime": "2020-08-07 14:33:44.957", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\taskhostw.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 381 ---
+{"UtcTime": "2020-08-07 14:33:44.957", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\SecurityHealthSystray.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 382 ---
+{"UtcTime": "2020-08-07 14:33:44.973", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\SecurityHealthService.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 383 ---
+{"UtcTime": "2020-08-07 14:33:44.973", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\RuntimeBroker.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 384 ---
+{"UtcTime": "2020-08-07 14:33:44.973", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 385 ---
+{"UtcTime": "2020-08-07 14:33:44.973", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 386 ---
+{"UtcTime": "2020-08-07 14:33:44.973", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\RuntimeBroker.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 387 ---
+{"UtcTime": "2020-08-07 14:33:44.973", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 388 ---
+{"UtcTime": "2020-08-07 14:33:44.973", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 389 ---
+{"UtcTime": "2020-08-07 14:33:44.973", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 390 ---
+{"UtcTime": "2020-08-07 14:33:44.988", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 391 ---
+{"UtcTime": "2020-08-07 14:33:44.988", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 392 ---
+{"UtcTime": "2020-08-07 14:33:44.988", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\DllHost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 393 ---
+{"UtcTime": "2020-08-07 14:33:44.988", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\ProgramData\\Microsoft\\Windows Defender\\platform\\4.18.2007.8-0\\MsMpEng.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 394 ---
+{"UtcTime": "2020-08-07 14:33:44.988", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\SecurityHealthHost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 395 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\RuntimeBroker.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 396 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\ApplicationFrameHost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 397 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 398 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 399 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 400 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 401 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\conhost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 402 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 403 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\WUDFHost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 404 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\WUDFHost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 405 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 406 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 407 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\smartscreen.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 408 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 409 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\AUDIODG.EXE", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 410 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 411 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\conhost.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 412 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 413 ---
+{"UtcTime": "2020-08-07 14:33:45.004", "EventID": 10, "ProcessId": "1784", "TargetImage": "C:\\windows\\system32\\wbem\\wmiprvse.exe", "GrantedAccess": "0x2000"}
+
+--- LOG_ID: 414 ---
+{"UtcTime": "2020-08-07 14:33:47.821", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 415 ---
+{"UtcTime": "2020-08-07 14:33:47.749", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 416 ---
+{"UtcTime": "2020-08-07 14:33:51.608", "EventID": 12, "ProcessId": "3280", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 417 ---
+{"UtcTime": "2020-08-07 14:33:51.623", "EventID": 12, "ProcessId": "3280", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 418 ---
+{"UtcTime": "2020-08-07 14:33:52.947", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 419 ---
+{"UtcTime": "2020-08-07 14:33:52.879", "EventID": 10, "ProcessId": "860", "TargetImage": "C:\\ProgramData\\Microsoft\\Windows Defender\\platform\\4.18.2007.8-0\\NisSrv.exe", "GrantedAccess": "0x1400"}
+
+--- LOG_ID: 420 ---
+{"UtcTime": "2020-08-07 14:33:52.874", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 421 ---
+{"UtcTime": "2020-08-07 14:33:58.061", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 422 ---
+{"UtcTime": "2020-08-07 14:33:57.990", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 423 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 424 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 425 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 426 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 427 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 428 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 429 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 430 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 431 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 432 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 433 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 434 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 435 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 436 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 12, "ProcessId": "3140", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider"}
+
+--- LOG_ID: 437 ---
+{"UtcTime": "2020-08-07 14:34:00.000", "EventID": 13, "ProcessId": "3140", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider\\StartTime"}
+
+--- LOG_ID: 438 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 439 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 440 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 441 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 442 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 443 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 444 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 445 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 446 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 447 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 448 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 449 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 450 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 451 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 12, "ProcessId": "3268", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider"}
+
+--- LOG_ID: 452 ---
+{"UtcTime": "2020-08-07 14:34:00.002", "EventID": 13, "ProcessId": "3268", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider\\StartTime"}
+
+--- LOG_ID: 453 ---
+{"UtcTime": "2020-08-07 14:34:03.171", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 454 ---
+{"UtcTime": "2020-08-07 14:34:03.098", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 455 ---
+{"UtcTime": "2020-08-07 14:34:08.265", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 456 ---
+{"UtcTime": "2020-08-07 14:34:09.126", "EventID": 13, "ProcessId": "4472", "Image": "C:\\windows\\Explorer.EXE", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Notifications\\Data\\418A073AA3BC3475"}
+
+--- LOG_ID: 457 ---
+{"UtcTime": "2020-08-07 14:34:08.193", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 458 ---
+{"UtcTime": "2020-08-07 14:34:10.054", "EventID": 13, "ProcessId": "4712", "Image": "C:\\windows\\system32\\SearchIndexer.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Notifications\\Data\\418A073AA3BC1C75"}
+
+--- LOG_ID: 459 ---
+{"UtcTime": "2020-08-07 14:34:12.776", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 460 ---
+{"UtcTime": "2020-08-07 14:34:12.791", "EventID": 11, "ProcessId": "3596", "Image": "C:\\windows\\system32\\DFSRs.exe"}
+
+--- LOG_ID: 461 ---
+{"UtcTime": "2020-08-07 14:34:12.791", "EventID": 12, "ProcessId": "3596", "Image": "C:\\windows\\system32\\DFSRs.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\DFSR\\Parameters\\Replication Groups\\ED16C134-8473-46E3-B7D2-B88531A53D73"}
+
+--- LOG_ID: 462 ---
+{"UtcTime": "2020-08-07 14:34:12.791", "EventID": 13, "ProcessId": "3596", "Image": "C:\\windows\\system32\\DFSRs.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\DFSR\\Parameters\\Replication Groups\\ED16C134-8473-46E3-B7D2-B88531A53D73\\Replica Set Configuration File"}
+
+--- LOG_ID: 463 ---
+{"UtcTime": "2020-08-07 14:34:12.791", "EventID": 13, "ProcessId": "3596", "Image": "C:\\windows\\system32\\DFSRs.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\DFSR\\Parameters\\Replication Groups\\ED16C134-8473-46E3-B7D2-B88531A53D73\\Config Source"}
+
+--- LOG_ID: 464 ---
+{"UtcTime": "2020-08-07 14:34:12.791", "EventID": 12, "ProcessId": "3596", "Image": "C:\\windows\\system32\\DFSRs.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\DFSR\\Access Checks\\Replication Groups\\ED16C134-8473-46E3-B7D2-B88531A53D73"}
+
+--- LOG_ID: 465 ---
+{"UtcTime": "2020-08-07 14:34:12.791", "EventID": 11, "ProcessId": "3596", "Image": "C:\\windows\\system32\\DFSRs.exe"}
+
+--- LOG_ID: 466 ---
+{"UtcTime": "2020-08-07 14:34:12.791", "EventID": 12, "ProcessId": "3596", "Image": "C:\\windows\\system32\\DFSRs.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\DFSR\\Parameters\\Volumes\\20415B9F-0000-0000-0000-501F00000000"}
+
+--- LOG_ID: 467 ---
+{"UtcTime": "2020-08-07 14:34:12.791", "EventID": 13, "ProcessId": "3596", "Image": "C:\\windows\\system32\\DFSRs.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\DFSR\\Parameters\\Volumes\\20415B9F-0000-0000-0000-501F00000000\\Volume Configuration File"}
+
+--- LOG_ID: 468 ---
+{"UtcTime": "2020-08-07 14:34:12.791", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 469 ---
+{"UtcTime": "2020-08-07 14:34:12.807", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 470 ---
+{"UtcTime": "2020-08-07 14:34:13.375", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 471 ---
+{"UtcTime": "2020-08-07 14:34:13.798", "EventID": 12, "ProcessId": "704", "Image": "C:\\windows\\system32\\lsass.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 472 ---
+{"UtcTime": "2020-08-07 14:34:04.720", "EventID": 3, "ProcessId": "3596", "Image": "C:\\Windows\\System32\\dfsrs.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "135"}
+
+--- LOG_ID: 473 ---
+{"UtcTime": "2020-08-07 14:34:04.720", "EventID": 3, "ProcessId": "976", "Image": "C:\\Windows\\System32\\svchost.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "135"}
+
+--- LOG_ID: 474 ---
+{"UtcTime": "2020-08-07 14:34:04.740", "EventID": 3, "ProcessId": "3596", "Image": "C:\\Windows\\System32\\dfsrs.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "389"}
+
+--- LOG_ID: 475 ---
+{"UtcTime": "2020-08-07 14:34:04.740", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "389"}
+
+--- LOG_ID: 476 ---
+{"UtcTime": "2020-08-07 14:34:04.747", "EventID": 3, "ProcessId": "3596", "Image": "C:\\Windows\\System32\\dfsrs.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "389"}
+
+--- LOG_ID: 477 ---
+{"UtcTime": "2020-08-07 14:34:04.747", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "fe80:0:0:0:3816:b2ee:1b9b:324b", "DestinationPort": "389"}
+
+--- LOG_ID: 478 ---
+{"UtcTime": "2020-08-07 14:34:13.303", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 479 ---
+{"UtcTime": "2020-08-07 14:34:18.469", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 480 ---
+{"UtcTime": "2020-08-07 14:34:18.397", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 481 ---
+{"UtcTime": "2020-08-07 14:34:21.161", "EventID": 11, "ProcessId": "1740", "Image": "C:\\windows\\System32\\svchost.exe"}
+
+--- LOG_ID: 482 ---
+{"UtcTime": "2020-08-07 14:34:23.579", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 483 ---
+{"UtcTime": "2020-08-07 14:34:23.508", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 484 ---
+{"UtcTime": "2020-08-07 14:34:26.344", "EventID": 13, "ProcessId": "4472", "Image": "C:\\windows\\Explorer.EXE", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Notifications\\Data\\418A073AA3BC3475"}
+
+--- LOG_ID: 485 ---
+{"UtcTime": "2020-08-07 14:34:26.977", "EventID": 12, "ProcessId": "3532", "Image": "C:\\windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 486 ---
+{"UtcTime": "2020-08-07 14:34:26.977", "EventID": 12, "ProcessId": "3532", "Image": "C:\\windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe", "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters"}
+
+--- LOG_ID: 487 ---
+{"UtcTime": "2020-08-07 14:34:18.919", "EventID": 3, "ProcessId": "3532", "Image": "C:\\Windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "389"}
+
+--- LOG_ID: 488 ---
+{"UtcTime": "2020-08-07 14:34:18.919", "EventID": 3, "ProcessId": "704", "Image": "C:\\Windows\\System32\\lsass.exe", "DestinationIp": "0:0:0:0:0:0:0:1", "DestinationPort": "389"}
+
+--- LOG_ID: 489 ---
+{"UtcTime": "2020-08-07 14:34:28.688", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 490 ---
+{"UtcTime": "2020-08-07 14:34:29.680", "EventID": 11, "ProcessId": "1436", "Image": "C:\\windows\\System32\\svchost.exe"}
+
+--- LOG_ID: 491 ---
+{"UtcTime": "2020-08-07 14:34:28.616", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 492 ---
+{"UtcTime": "2020-08-07 14:34:33.806", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 493 ---
+{"UtcTime": "2020-08-07 14:34:33.737", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 494 ---
+{"UtcTime": "2020-08-07 14:34:36.961", "EventID": 12, "ProcessId": "3120", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 495 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 496 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 497 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 498 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 499 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 500 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 501 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 502 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 503 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 504 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 505 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 506 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 507 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 508 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 509 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 510 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 511 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 512 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 513 ---
+{"UtcTime": "2020-08-07 14:34:37.250", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 514 ---
+{"UtcTime": "2020-08-07 14:34:37.258", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 515 ---
+{"UtcTime": "2020-08-07 14:34:37.258", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 516 ---
+{"UtcTime": "2020-08-07 14:34:37.258", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 517 ---
+{"UtcTime": "2020-08-07 14:34:37.258", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 518 ---
+{"UtcTime": "2020-08-07 14:34:37.258", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 519 ---
+{"UtcTime": "2020-08-07 14:34:37.258", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 520 ---
+{"UtcTime": "2020-08-07 14:34:37.258", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 521 ---
+{"UtcTime": "2020-08-07 14:34:37.258", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 522 ---
+{"UtcTime": "2020-08-07 14:34:37.258", "EventID": 10, "ProcessId": "1928", "TargetImage": "C:\\windows\\system32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 523 ---
+{"UtcTime": "2020-08-07 14:34:38.931", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 524 ---
+{"UtcTime": "2020-08-07 14:34:38.860", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 525 ---
+{"UtcTime": "2020-08-07 14:34:41.204", "EventID": 11, "ProcessId": "1560", "Image": "C:\\windows\\System32\\svchost.exe"}
+
+--- LOG_ID: 526 ---
+{"UtcTime": "2020-08-07 14:34:41.844", "EventID": 12, "ProcessId": "4164", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 527 ---
+{"UtcTime": "2020-08-07 14:34:42.026", "EventID": 13, "ProcessId": "4472", "Image": "C:\\windows\\Explorer.EXE", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Notifications\\Data\\418A073AA3BC3475"}
+
+--- LOG_ID: 528 ---
+{"UtcTime": "2020-08-07 14:34:44.044", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 529 ---
+{"UtcTime": "2020-08-07 14:34:43.971", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 530 ---
+{"UtcTime": "2020-08-07 14:34:49.138", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 531 ---
+{"UtcTime": "2020-08-07 14:34:49.067", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 532 ---
+{"UtcTime": "2020-08-07 14:34:52.881", "EventID": 10, "ProcessId": "860", "TargetImage": "C:\\ProgramData\\Microsoft\\Windows Defender\\platform\\4.18.2007.8-0\\NisSrv.exe", "GrantedAccess": "0x1400"}
+
+--- LOG_ID: 533 ---
+{"UtcTime": "2020-08-07 14:34:54.248", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 534 ---
+{"UtcTime": "2020-08-07 14:34:54.176", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 535 ---
+{"UtcTime": "2020-08-07 14:34:59.343", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 536 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 537 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 538 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 539 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 540 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 541 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 542 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 543 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 544 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 545 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 546 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 547 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 548 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 10, "ProcessId": "452", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 549 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 12, "ProcessId": "3140", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider"}
+
+--- LOG_ID: 550 ---
+{"UtcTime": "2020-08-07 14:35:00.001", "EventID": 13, "ProcessId": "3140", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider\\StartTime"}
+
+--- LOG_ID: 551 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 552 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 553 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 554 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 555 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 556 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 557 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 558 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 559 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 560 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 561 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x40"}
+
+--- LOG_ID: 562 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 563 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 10, "ProcessId": "380", "TargetImage": "C:\\windows\\System32\\svchost.exe", "GrantedAccess": "0x1000"}
+
+--- LOG_ID: 564 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 12, "ProcessId": "3268", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider"}
+
+--- LOG_ID: 565 ---
+{"UtcTime": "2020-08-07 14:35:00.000", "EventID": 13, "ProcessId": "3268", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\VFUProvider\\StartTime"}
+
+--- LOG_ID: 566 ---
+{"UtcTime": "2020-08-07 14:34:59.270", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 567 ---
+{"UtcTime": "2020-08-07 14:35:03.598", "EventID": 12, "ProcessId": "3280", "Image": "C:\\windows\\System32\\svchost.exe", "TargetObject": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 568 ---
+{"UtcTime": "2020-08-07 14:35:04.452", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 569 ---
+{"UtcTime": "2020-08-07 14:35:04.388", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 570 ---
+{"UtcTime": "2020-08-07 14:35:09.562", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 571 ---
+{"UtcTime": "2020-08-07 14:35:09.488", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 572 ---
+{"UtcTime": "2020-08-07 14:35:14.674", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 573 ---
+{"UtcTime": "2020-08-07 14:35:14.601", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 574 ---
+{"UtcTime": "2020-08-07 14:35:19.768", "EventID": 12, "ProcessId": "1648", "Image": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "TargetObject": "HKU\\S-1-5-21-1363495622-3806888128-621328882-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections"}
+
+--- LOG_ID: 575 ---
+{"UtcTime": "2020-08-07 14:35:19.697", "EventID": 3, "ProcessId": "1648", "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "DestinationIp": "10.10.10.5", "DestinationPort": "80"}
+
+--- LOG_ID: 576 ---
+{"UtcTime": "2020-08-07 14:35:21.175", "EventID": 11, "ProcessId": "1740", "Image": "C:\\windows\\System32\\svchost.exe"}
+
