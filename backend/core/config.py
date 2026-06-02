@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 # Load .env from backend directory
 _backend_dir = Path(__file__).resolve().parent.parent
-load_dotenv(_backend_dir / ".env")
+load_dotenv(_backend_dir / ".env", override=True)
 
 
 class ModelConfig:
@@ -37,13 +37,15 @@ class ModelConfig:
     def api_key(self) -> Optional[str]:
         """Retrieve API key from environment."""
         key = os.getenv(self.api_key_env_var, "")
-        if key and not key.startswith("your_") and not key.endswith("_here"):
+        if key and not key.startswith("your_") and not key.endswith("_here") and key != "optional_paid_key":
             return key
         return None
 
     @property
     def available(self) -> bool:
         """Check if this model's API key is configured."""
+        if self.provider == "ollama":
+            return True
         return self.api_key is not None
 
     def to_dict(self) -> dict:
