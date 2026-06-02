@@ -1,0 +1,37 @@
+# Environment
+backend/.env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large dataset files (keep filtered versions)
+*.json
+!backend/config.json
+!frontend/package.json
+!frontend/tsconfig.json
+backend/data/scenarios/*.jsonl
+
+# Generated
+final_prompt_payload.txt
