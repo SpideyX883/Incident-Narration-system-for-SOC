@@ -40,12 +40,18 @@ class ModelConfig:
         if key and not key.startswith("your_") and not key.endswith("_here") and key != "optional_paid_key":
             return key
         return None
-
+    
     @property
     def available(self) -> bool:
-        """Check if this model's API key is configured."""
+        """Check if this model's API key is configured (or Ollama is reachable)."""
         if self.provider == "ollama":
-            return True
+            # Quickly check if Ollama is listening on its port
+            import socket
+            try:
+                with socket.create_connection(("127.0.0.1", 11434), timeout=1):
+                    return True
+            except OSError:
+                return False
         return self.api_key is not None
 
     def to_dict(self) -> dict:

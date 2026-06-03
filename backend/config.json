@@ -78,7 +78,7 @@
         "timeout_seconds": 60
       },
       {
-        "id": "llama3",
+        "id": "llama3:latest",
         "display_name": "Ollama (Llama 3)",
         "provider": "ollama",
         "context_window_tokens": 8192,
@@ -90,8 +90,8 @@
         "timeout_seconds": 120
       },
       {
-        "id": "gemma",
-        "display_name": "Ollama (Gemma)",
+        "id": "gemma4:latest",
+        "display_name": "Ollama (Gemma 4)",
         "provider": "ollama",
         "context_window_tokens": 8192,
         "cost_tier": "free",

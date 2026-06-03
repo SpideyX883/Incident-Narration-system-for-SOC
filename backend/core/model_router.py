@@ -154,7 +154,7 @@ class ModelRouter:
 
             except Exception as e:
                 last_error = str(e)
-                logger.error(f"{model_id} failed: {last_error}", exc_info=True)
+                logger.exception(f"{model_id} failed: {last_error}")
                 await progress_callback({
                     "event": "model_failed",
                     "model": model_id,
@@ -180,7 +180,11 @@ class ModelRouter:
             result = await asyncio.wait_for(
                 self._call_google(model_config, prompt), timeout=timeout
             )
-        elif model_config.provider in ("openrouter", "openai", "ollama"):
+        elif model_config.provider == "ollama":
+            result = await asyncio.wait_for(
+                self._call_ollama(model_config, prompt), timeout=timeout
+            )
+        elif model_config.provider in ("openrouter", "openai"):
             result = await asyncio.wait_for(
                 self._call_openrouter(model_config, prompt), timeout=timeout
             )
@@ -232,14 +236,69 @@ class ModelRouter:
             logger.error(f"Google API error: {e}")
             raise
 
+
+    async def _call_ollama(
+        self, model_config: ModelConfig, prompt: str
+    ) -> ModelResult:
+        """Call Ollama native API with auto-pull support."""
+        try:
+            import ollama
+            
+            # Ollama's native client expects the base host without /v1
+            host = model_config.base_url.replace('/v1', '') if model_config.base_url else 'http://localhost:11434'
+            client = ollama.AsyncClient(host=host)
+            
+            model_name = model_config.id
+            logger.info(f"Connecting to native Ollama for model: {model_name}")
+
+            try:
+                response = await client.generate(model=model_name, prompt=prompt)
+            except ollama.ResponseError as e:
+                if "not found" in str(e).lower():
+                    logger.info(f"Model '{model_name}' not found locally. Attempting to pull it. This may take a while...")
+                    async for progress_chunk in await client.pull(model_name, stream=True):
+                        if 'total' in progress_chunk and progress_chunk['total'] is not None and \
+                           'completed' in progress_chunk and progress_chunk['completed'] is not None:
+                            current = progress_chunk['completed']
+                            total = progress_chunk['total']
+                            if total > 0:
+                                percent = (current / total) * 100
+                                logger.info(f"Downloading {model_name}: {percent:.2f}% ({current}/{total})")
+                        elif 'status' in progress_chunk:
+                            logger.info(f"Ollama pull status: {progress_chunk['status']}")
+                    
+                    logger.info(f"Model '{model_name}' pulled successfully. Retrying generation...")
+                    response = await client.generate(model=model_name, prompt=prompt)
+                else:
+                    raise
+
+            text = response['response']
+            tokens = len(text) // 4  # Estimate
+
+            return ModelResult(
+                model_id=model_name,
+                text=text,
+                tokens_used=tokens,
+            )
+
+        except Exception as e:
+            logger.exception(f"Ollama native API error for {model_config.display_name}: {e}")
+            raise
+
+
     async def _call_openrouter(
         self, model_config: ModelConfig, prompt: str
     ) -> ModelResult:
-        """Call OpenRouter or Ollama API (OpenAI-compatible)."""
+        """Call OpenRouter or OpenAI API."""
         try:
             from openai import AsyncOpenAI
 
-            api_key = model_config.api_key or "ollama" if model_config.provider == "ollama" else model_config.api_key
+            api_key = model_config.api_key
+            if not api_key:
+                raise ValueError(
+                    f"No API key found for {model_config.display_name}. "
+                    f"Set the {model_config.api_key_env_var} environment variable."
+                )
 
             client = AsyncOpenAI(
                 api_key=api_key,
@@ -264,8 +323,9 @@ class ModelRouter:
             )
 
         except Exception as e:
-            logger.error(f"OpenRouter API error: {e}")
+            logger.exception(f"OpenRouter/OpenAI API error for {model_config.display_name}: {e}")
             raise
+
 
     async def _retry_for_compliance(
         self,
