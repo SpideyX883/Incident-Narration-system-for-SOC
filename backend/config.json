@@ -113,6 +113,18 @@
         "api_key_env_var": "OLLAMA_API_KEY",
         "temperature": 0.0,
         "timeout_seconds": 120
+      },
+      {
+        "id": "deepseek-r1:8b",
+        "display_name": "Ollama (DeepSeek R1 8B)",
+        "provider": "ollama",
+        "context_window_tokens": 8192,
+        "cost_tier": "free",
+        "role": "cross_val",
+        "base_url": "http://localhost:11434/v1",
+        "api_key_env_var": "OLLAMA_API_KEY",
+        "temperature": 0.0,
+        "timeout_seconds": 120
       }
     ],
     "paid_tier": [
