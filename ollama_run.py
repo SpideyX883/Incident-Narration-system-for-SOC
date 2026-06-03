@@ -12,7 +12,7 @@ def check_ollama_status():
         return False
 
 def run_ollama_cli():
-    print("--- Local Ollama CLI Runner ---")
+    print("-- Local Ollama CLI Runner --")
 
     # 1. Pre-flight check: Verify Ollama is actually running
     if not check_ollama_status():
@@ -70,12 +70,15 @@ def run_ollama_cli():
                 print(f"\nModel '{model_name}' not found locally. Attempting to pull it...")
                 try:
                     for progress_chunk in ollama.pull(model_name, stream=True):
-                        # You can print progress here if desired
-                        if 'total' in progress_chunk:
-                            current = progress_chunk.get('completed', 0)
+                        if 'total' in progress_chunk and progress_chunk['total'] is not None and \
+                           'completed' in progress_chunk and progress_chunk['completed'] is not None:
+                            current = progress_chunk['completed']
                             total = progress_chunk['total']
-                            percent = (current / total) * 100
-                            sys.stdout.write(f"\rDownloading {model_name}: {percent:.2f}% ({current}/{total})")
+                            if total > 0: # Avoid division by zero
+                                percent = (current / total) * 100
+                                sys.stdout.write(f"\rDownloading {model_name}: {percent:.2f}% ({current}/{total})")
+                            else:
+                                sys.stdout.write(f"\rDownloading {model_name}: {current}/{total} bytes ") # Fallback if total is 0
                             sys.stdout.flush()
                         elif 'status' in progress_chunk:
                             sys.stdout.write(f"\r{progress_chunk['status']} ")
