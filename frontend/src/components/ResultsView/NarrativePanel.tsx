@@ -14,7 +14,7 @@ interface NarrativePanelProps {
 
 export function NarrativePanel({ modelId, narrative, isPrimary, consensus, onCitationClick, onSentenceHover }: NarrativePanelProps) {
   const shortName = modelId.includes('/') ? modelId.split('/').pop()?.split(':')[0] || modelId : modelId;
-  const hoverTimeoutRef = useRef<NodeJS.Timeout>();
+  const hoverTimeoutRef = useRef<any>();
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
 
   const handleMouseEnter = (idx: number, logIds: number[]) => {
@@ -50,20 +50,24 @@ export function NarrativePanel({ modelId, narrative, isPrimary, consensus, onCit
 
       // Instead of complex sentence splitting which might break markdown lists, 
       // we'll treat lines/bullets as the "sentence" block if they contain LOG_IDs
-      const matchIterator = line.matchAll(/\[LOG_ID:\s*(\d+)\]/g);
+      const matchIterator = line.matchAll(/(?:LOG_ID[s]?_?\s*:?\s*(\d+))/gi);
       const logIdsInLine = Array.from(matchIterator).map(m => parseInt(m[1]));
       
       const isHovered = hoveredIdx === i;
 
-      const elements = line.split(/(\[LOG_ID:\s*\d+\])/g).map((part, k) => {
-        const match = part.match(/\[LOG_ID:\s*(\d+)\]/);
+      // Split by any form of LOG_ID reference (e.g. LOG_ID 5, [LOG_ID: 5], LOG_ID: 5)
+      const elements = line.split(/(\[LOG_ID:\s*\d+\]|LOG_ID:\s*\d+|LOG_ID\s+\d+|LOG_ID_\d+)/gi).map((part, k) => {
+        const match = part.match(/(?:LOG_ID[s]?_?\s*:?\s*(\d+))/i);
         if (match) {
           const logId = parseInt(match[1]);
           const isPhantom = consensus?.phantom_citations.includes(logId);
           return (
             <button
               key={k}
-              onClick={() => onCitationClick(logId)}
+              onClick={(e) => {
+                e.stopPropagation();
+                onCitationClick(logId);
+              }}
               className={isPhantom ? 'citation-tag-phantom relative z-10' : 'citation-tag relative z-10'}
               title={isPhantom ? `PHANTOM — LOG_ID ${logId} does not exist in timeline` : `View LOG_ID ${logId}`}
             >

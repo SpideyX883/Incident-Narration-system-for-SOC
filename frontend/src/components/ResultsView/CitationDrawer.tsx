@@ -88,7 +88,7 @@ export function CitationDrawer({ logId, consensus, rawEvent, onClose }: Citation
               <h4 className="text-sm font-heading font-bold text-sybil-text mb-3 uppercase tracking-wider flex items-center gap-2">
                 <span className="text-sybil-purple">{'{}'}</span> Raw Log Event
               </h4>
-              <div className="glass-panel p-4 bg-[#0a0d12] overflow-x-auto">
+              <div className="glass-panel p-4 bg-sybil-bg overflow-x-auto">
                 <pre className="text-xs font-mono text-sybil-text2 leading-relaxed">
                   {JSON.stringify(rawEvent, null, 2)}
                 </pre>

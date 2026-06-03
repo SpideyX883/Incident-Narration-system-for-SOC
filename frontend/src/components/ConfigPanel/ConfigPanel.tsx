@@ -161,7 +161,7 @@ export function ConfigPanel({
                     className={`flex items-center justify-between p-3 rounded-lg border transition-all duration-200 text-left ${
                       isSelected
                         ? 'border-sybil-accent/50 bg-sybil-accent/5'
-                        : 'border-sybil-border bg-[#0a0d12] hover:border-sybil-border2'
+                        : 'border-sybil-border bg-sybil-bg hover:border-sybil-border2'
                     } ${!m.available ? 'opacity-40 cursor-not-allowed' : ''}`}
                   >
                     <div className="flex items-center gap-3">
@@ -232,7 +232,7 @@ export function ConfigPanel({
                       className={`flex items-center justify-between p-3 rounded-lg border transition-all duration-200 text-left ${
                         isSelected
                           ? 'border-sybil-purple/50 bg-sybil-purple/10'
-                          : 'border-sybil-border bg-[#0a0d12] hover:border-sybil-border2'
+                          : 'border-sybil-border bg-sybil-bg hover:border-sybil-border2'
                       } ${(!m.available || isAlreadyGenerating) ? 'opacity-40 cursor-not-allowed' : ''}`}
                     >
                       <div className="flex items-center gap-3">

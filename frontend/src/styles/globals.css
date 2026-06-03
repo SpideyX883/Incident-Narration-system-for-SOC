@@ -4,20 +4,20 @@
 
 @layer base {
   :root {
-    --bg: #0a0d12;
-    --surface: #111520;
-    --surface2: #161b27;
-    --surface3: #1c2235;
-    --border: #1f2a3d;
-    --border2: #263347;
-    --accent: #00e5ff;
-    --accent2: #7c3aed;
-    --accent3: #10b981;
-    --accent4: #f59e0b;
-    --accent5: #ef4444;
-    --text: #e2e8f0;
-    --text2: #94a3b8;
-    --text3: #64748b;
+    --bg: 245 247 250;      /* #f5f7fa */
+    --surface: 255 255 255; /* #ffffff */
+    --surface2: 248 250 252;/* #f8fafc */
+    --surface3: 241 245 249;/* #f1f5f9 */
+    --border: 226 232 240;  /* #e2e8f0 */
+    --border2: 203 213 225;  /* #cbd5e1 */
+    --accent: 2 132 199;     /* #0284c7 */
+    --accent2: 124 58 237;  /* #7c3aed */
+    --accent3: 5 150 105;   /* #059669 */
+    --accent4: 217 119 6;   /* #d97706 */
+    --accent5: 220 38 38;   /* #dc2626 */
+    --text: 15 23 42;       /* #0f172a */
+    --text2: 51 65 85;      /* #334155 */
+    --text3: 100 116 139;   /* #64748b */
   }
 
   * {
@@ -34,8 +34,8 @@
 
   body {
     font-family: 'DM Sans', sans-serif;
-    background: var(--bg);
-    color: var(--text);
+    background: rgb(var(--bg));
+    color: rgb(var(--text));
     min-height: 100vh;
     overflow-x: hidden;
   }
@@ -56,16 +56,16 @@
   }
 
   ::-webkit-scrollbar-track {
-    background: var(--surface);
+    background: rgb(var(--surface));
   }
 
   ::-webkit-scrollbar-thumb {
-    background: var(--border2);
+    background: rgb(var(--border2));
     border-radius: 3px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--text3);
+    background: rgb(var(--text3));
   }
 }
 
@@ -140,10 +140,10 @@
     @apply h-full bg-gradient-to-r from-sybil-accent to-cyan-400 rounded-full transition-all duration-500 ease-out;
   }
 
-/* PrismJS Syntax Highlighting Theme (Dark) */
+/* PrismJS Syntax Highlighting Theme (Light) */
 code[class*="language-"],
 pre[class*="language-"] {
-  color: #c9d1d9;
+  color: #24292f;
   text-shadow: none;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: 1em;
@@ -157,16 +157,16 @@ pre[class*="language-"] {
   hyphens: none;
 }
 .token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol, .token.deleted {
-  color: #79c0ff;
+  color: #0550ae;
 }
 .token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
-  color: #a5d6ff;
+  color: #0a3069;
 }
 .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
-  color: #d2a8ff;
+  color: #953800;
 }
 .token.atrule, .token.attr-value, .token.keyword {
-  color: #ff7b72;
+  color: #cf222e;
 }
 
 /* Custom Scrollbar */

@@ -23,7 +23,7 @@ export function PDFExportButton({ elementId, filename, className }: PDFExportBut
       const canvas = await html2canvas(element, {
         scale: 2, // Higher quality
         useCORS: true,
-        backgroundColor: '#0a0d12', // Sybil background color
+        backgroundColor: '#f5f7fa', // Sybil light background color
         windowWidth: 1200, // Force a good width
       });
 

@@ -13,7 +13,7 @@ export function ConfidenceMeter({ confidence }: ConfidenceMeterProps) {
       <div className="relative w-32 h-32">
         <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
           {/* Track */}
-          <circle cx="50" cy="50" r="45" fill="none" stroke="#1c2235" strokeWidth="6" />
+          <circle cx="50" cy="50" r="45" fill="none" stroke="var(--border2)" strokeWidth="6" />
           {/* Fill */}
           <circle
             cx="50" cy="50" r="45" fill="none"

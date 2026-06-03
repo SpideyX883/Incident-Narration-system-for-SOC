@@ -296,6 +296,7 @@ async def run_analysis(request: AnalysisRequest):
         events_truncated=timeline_meta["events_truncated"],
         truncation_reason=timeline_meta.get("truncation_reason"),
         total_log_ids=timeline_meta["total_log_ids"],
+        events_map=timeline_meta["events_map"],
     )
 
     # Send completion event
