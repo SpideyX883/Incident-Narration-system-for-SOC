@@ -4,15 +4,16 @@
     "version": "2.0.0",
     "description": "Zero-Hallucination SOC Narrative Engine"
   },
-
   "server": {
     "host": "0.0.0.0",
     "port": 8000,
     "reload": true,
-    "cors_origins": ["http://localhost:5173", "http://127.0.0.1:5173"],
+    "cors_origins": [
+      "http://localhost:5173",
+      "http://127.0.0.1:5173"
+    ],
     "websocket_timeout_seconds": 120
   },
-
   "models": {
     "primary_tier": [
       {
@@ -151,7 +152,6 @@
       ]
     }
   },
-
   "analysis": {
     "default_mode": "ensemble",
     "default_primary_model": "gemini-2.5-flash",
@@ -171,7 +171,6 @@
     "model_timeout_seconds": 60,
     "parallel_calls": true
   },
-
   "consensus_engine": {
     "bertscore_model_fast": "distilbert-base-uncased",
     "bertscore_model_accurate": "roberta-large",
@@ -180,22 +179,41 @@
     "citation_confirmed_min_models": 2,
     "use_fast_model_in_ui": true
   },
-
   "scenarios": [
     {
       "id": "empire_mimikatz_logonpasswords",
       "display_name": "Empire Mimikatz LogonPasswords",
-      "file": "data/scenarios/empire_mimikatz_logonpasswords.jsonl",
+      "file": "D:/work_fahadf/folder/Incident-Narration-system-for-SOC/empire_mimikatz_logonpasswords_2020-08-07103224_filtered.json",
       "description": "Simulated credential access via Empire post-exploitation framework executing Mimikatz LogonPasswords on MORDORDC domain controller (OTRF Mordor dataset)",
       "event_count_approx": 577,
-      "mitre_techniques": ["T1003.001", "T1059.001", "T1055"],
+      "mitre_techniques": [
+        "T1003.001",
+        "T1059.001",
+        "T1055"
+      ],
       "difficulty": "medium"
     }
   ],
-
   "data_processing": {
-    "priority_event_ids": [1, 3, 7, 8, 10, 11, 12, 13, 17, 18, 22, 25],
-    "low_priority_event_ids": [3, 5, 6],
+    "priority_event_ids": [
+      1,
+      3,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      17,
+      18,
+      22,
+      25
+    ],
+    "low_priority_event_ids": [
+      3,
+      5,
+      6
+    ],
     "fields_to_include": [
       "EventID",
       "UtcTime",
@@ -227,14 +245,12 @@
       "tags"
     ]
   },
-
   "export": {
     "pdf_enabled": true,
     "json_enabled": true,
     "include_raw_logs_in_export": true,
     "include_consensus_metrics": true
   },
-
   "logging": {
     "level": "INFO",
     "log_api_calls": true,
