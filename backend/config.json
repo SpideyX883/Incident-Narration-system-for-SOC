@@ -16,7 +16,7 @@
   "models": {
     "primary_tier": [
       {
-        "id": "gemini-2.5-flash-preview-05-20",
+        "id": "gemini-2.5-flash",
         "display_name": "Gemini 2.5 Flash",
         "provider": "google",
         "context_window_tokens": 1000000,
@@ -42,10 +42,10 @@
         "timeout_seconds": 90
       },
       {
-        "id": "deepseek/deepseek-v4-flash:free",
-        "display_name": "DeepSeek V4 Flash",
+        "id": "mistralai/mistral-nemo:free",
+        "display_name": "Mistral Nemo",
         "provider": "openrouter",
-        "context_window_tokens": 1000000,
+        "context_window_tokens": 128000,
         "cost_tier": "free",
         "role": "fallback",
         "api_key_env_var": "OPENROUTER_API_KEY",
@@ -58,6 +58,18 @@
         "display_name": "Llama 4 Maverick",
         "provider": "openrouter",
         "context_window_tokens": 128000,
+        "cost_tier": "free",
+        "role": "fallback",
+        "api_key_env_var": "OPENROUTER_API_KEY",
+        "base_url": "https://openrouter.ai/api/v1",
+        "temperature": 0.0,
+        "timeout_seconds": 90
+      },
+      {
+        "id": "google/gemini-2.0-pro-exp-02-05:free",
+        "display_name": "Gemini 2.0 Pro Exp",
+        "provider": "openrouter",
+        "context_window_tokens": 1000000,
         "cost_tier": "free",
         "role": "fallback",
         "api_key_env_var": "OPENROUTER_API_KEY",
@@ -128,21 +140,21 @@
     ],
     "fallback_chains": {
       "primary": [
-        "gemini-2.5-flash-preview-05-20",
-        "deepseek/deepseek-v4-flash:free",
-        "gemini-2.0-flash"
+        "gemini-2.5-flash",
+        "gemini-2.0-flash",
+        "google/gemini-2.0-pro-exp-02-05:free"
       ],
       "cross_val": [
         "deepseek/deepseek-r1:free",
         "meta-llama/llama-4-maverick:free",
-        "deepseek/deepseek-v4-flash:free"
+        "mistralai/mistral-nemo:free"
       ]
     }
   },
 
   "analysis": {
     "default_mode": "ensemble",
-    "default_primary_model": "gemini-2.5-flash-preview-05-20",
+    "default_primary_model": "gemini-2.5-flash",
     "default_cross_val_models": [
       "deepseek/deepseek-r1:free",
       "meta-llama/llama-4-maverick:free"

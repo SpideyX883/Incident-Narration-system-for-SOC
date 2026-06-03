@@ -95,7 +95,7 @@ class ModelRouter:
     ) -> ModelResult:
         """Try requested model, fall back through chain on failure."""
         chain = settings.get_fallback_chain(role, requested_model_id)
-        last_error = None
+        errors = []
 
         for model_id in chain:
             model_config = settings.get_model(model_id)
@@ -143,6 +143,7 @@ class ModelRouter:
 
             except asyncio.TimeoutError:
                 last_error = f"Timeout after {model_config.timeout_seconds}s"
+                errors.append(f"{model_id}: {last_error}")
                 logger.warning(f"{model_id}: {last_error}")
                 await progress_callback({
                     "event": "model_failed",
@@ -154,6 +155,7 @@ class ModelRouter:
 
             except Exception as e:
                 last_error = str(e)
+                errors.append(f"{model_id}: {last_error}")
                 logger.exception(f"{model_id} failed: {last_error}")
                 await progress_callback({
                     "event": "model_failed",
@@ -164,9 +166,10 @@ class ModelRouter:
                 continue
 
         # All models in chain failed
+        combined_error = " -> ".join(errors) if errors else "All models in fallback chain failed"
         return ModelResult(
             model_id=requested_model_id,
-            error=last_error or "All models in fallback chain failed",
+            error=combined_error,
             partial=True,
         )
 
@@ -181,9 +184,8 @@ class ModelRouter:
                 self._call_google(model_config, prompt), timeout=timeout
             )
         elif model_config.provider == "ollama":
-            result = await asyncio.wait_for(
-                self._call_ollama(model_config, prompt), timeout=timeout
-            )
+            # Remove timeout for Ollama completely to allow long local generation and auto-pulls
+            result = await self._call_ollama(model_config, prompt)
         elif model_config.provider in ("openrouter", "openai"):
             result = await asyncio.wait_for(
                 self._call_openrouter(model_config, prompt), timeout=timeout
@@ -206,21 +208,22 @@ class ModelRouter:
     async def _call_google(
         self, model_config: ModelConfig, prompt: str
     ) -> ModelResult:
-        """Call Google Gemini API via google-generativeai SDK."""
+        """Call Google Gemini API via the official google-genai SDK."""
         try:
-            import google.generativeai as genai
+            from google import genai
+            from google.genai import types
 
-            genai.configure(api_key=model_config.api_key)
+            client = genai.Client(api_key=model_config.api_key)
 
-            model = genai.GenerativeModel(
-                model_name=model_config.id,
-                generation_config=genai.types.GenerationConfig(
-                    temperature=model_config.temperature,
-                ),
+            config = types.GenerateContentConfig(
+                temperature=model_config.temperature,
             )
-
-            response = await asyncio.to_thread(
-                model.generate_content, prompt
+            
+            # Use aio client for async request
+            response = await client.aio.models.generate_content(
+                model=model_config.id,
+                contents=prompt,
+                config=config,
             )
 
             text = response.text if response.text else ""
@@ -233,16 +236,18 @@ class ModelRouter:
             )
 
         except Exception as e:
-            logger.error(f"Google API error: {e}")
+            logger.exception(f"Google API error: {e}")
             raise
 
 
     async def _call_ollama(
         self, model_config: ModelConfig, prompt: str
     ) -> ModelResult:
-        """Call Ollama native API with auto-pull support."""
+        """Call Ollama native API with auto-pull and warmup support."""
         try:
             import ollama
+            import socket
+            from urllib.parse import urlparse
             
             # Ollama's native client expects the base host without /v1
             host = model_config.base_url.replace('/v1', '') if model_config.base_url else 'http://localhost:11434'
@@ -251,7 +256,30 @@ class ModelRouter:
             model_name = model_config.id
             logger.info(f"Connecting to native Ollama for model: {model_name}")
 
+            # 1. Pre-flight check: Verify Ollama service is reachable
+            parsed_host = urlparse(host)
+            hostname = parsed_host.hostname or "localhost"
+            port = parsed_host.port or 11434
             try:
+                # Use standard socket to check if port is open
+                with socket.create_connection((hostname, port), timeout=2):
+                    pass
+                logger.info(f"Ollama pre-flight check passed. Service is up on {hostname}:{port}")
+            except (socket.timeout, ConnectionRefusedError, OSError) as e:
+                error_msg = f"Ollama service is not reachable on {hostname}:{port}. Is the Ollama app running?"
+                logger.error(error_msg)
+                raise Exception(error_msg) from e
+
+            # Helper for warmup
+            async def run_warmup():
+                logger.info(f"Running warmup prompt 'Introduce yourself' for {model_name}...")
+                warmup_response = await client.generate(model=model_name, prompt="Introduce yourself briefly in one sentence.")
+                logger.info(f"Warmup response from {model_name}: {warmup_response['response'].strip()}")
+
+            # 2. Main Logic with Auto-pull
+            try:
+                await run_warmup()
+                logger.info(f"Warmup complete. Running main prompt for {model_name}...")
                 response = await client.generate(model=model_name, prompt=prompt)
             except ollama.ResponseError as e:
                 if "not found" in str(e).lower():
@@ -267,7 +295,10 @@ class ModelRouter:
                         elif 'status' in progress_chunk:
                             logger.info(f"Ollama pull status: {progress_chunk['status']}")
                     
-                    logger.info(f"Model '{model_name}' pulled successfully. Retrying generation...")
+                    logger.info(f"Model '{model_name}' pulled successfully.")
+                    
+                    await run_warmup()
+                    logger.info(f"Warmup complete. Retrying main generation for {model_name}...")
                     response = await client.generate(model=model_name, prompt=prompt)
                 else:
                     raise
