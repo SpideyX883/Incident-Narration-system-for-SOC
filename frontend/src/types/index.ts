@@ -88,6 +88,7 @@ export interface ModelsUsed {
 
 export interface NarrativeResult {
   text: string;
+  anonymized_text?: string;
   citations: number[];
   compliance_rate: number;
   sentence_count: number;

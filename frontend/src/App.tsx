@@ -75,6 +75,8 @@ export default function App() {
               crossValModels={analysis.crossValModels}
               consensusThreshold={analysis.consensusThreshold}
               maxEvents={analysis.maxEvents}
+              anonymize={analysis.anonymize}
+              onAnonymizeChange={analysis.setAnonymize}
               onScenarioChange={analysis.setScenarioId}
               onModeChange={analysis.setMode}
               onPrimaryModelChange={analysis.setPrimaryModel}

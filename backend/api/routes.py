@@ -20,6 +20,7 @@ from core.consensus_engine import (
 )
 from core.prompt_builder import build_system_prompt
 from core.timeline_builder import assemble_timeline
+from core.anonymizer import LogAnonymizer
 from models.request_models import AnalysisRequest, RuntimeConfig
 from models.response_models import (
     AnalysisResponse,
@@ -121,10 +122,23 @@ async def run_analysis(request: AnalysisRequest):
         max_events=request.max_events,
     )
 
+    # Anonymize logs if requested
+    anonymizer = None
+    if request.anonymize:
+        await progress_callback({
+            "event": "anonymizing_data",
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+        })
+        anonymizer = LogAnonymizer()
+        anonymizer.analyze_and_build_maps(filtered_events)
+        timeline_events = anonymizer.anonymize_events(filtered_events)
+    else:
+        timeline_events = filtered_events
+
     # ----- Step 4: Build timeline -----
     context_limit = primary_config.context_window_tokens
     timeline_string, timeline_meta = assemble_timeline(
-        filtered_events,
+        timeline_events,
         max_events=request.max_events,
         context_limit=context_limit,
     )
@@ -141,6 +155,7 @@ async def run_analysis(request: AnalysisRequest):
         cross_val_model_ids=cross_val_ids,
         consensus_threshold=request.consensus_threshold,
         max_events=request.max_events,
+        anonymize=request.anonymize,
         request_id=request.request_id,
     )
 
@@ -168,8 +183,17 @@ async def run_analysis(request: AnalysisRequest):
             )
             continue
 
+        raw_anonymized_text = None
+        if anonymizer:
+            raw_anonymized_text = result.text
+            result.text = anonymizer.deanonymize_text(result.text)
+            result.uncited_sentences = [
+                anonymizer.deanonymize_text(s) for s in result.uncited_sentences
+            ]
+
         narratives[model_id] = NarrativeResult(
             text=result.text,
+            anonymized_text=raw_anonymized_text,
             citations=result.citations,
             compliance_rate=result.compliance_rate,
             sentence_count=result.sentence_count,
@@ -291,12 +315,16 @@ async def run_analysis(request: AnalysisRequest):
         failed=failed_models,
     )
 
+    events_map = timeline_meta["events_map"]
+    if anonymizer:
+        events_map = anonymizer.deanonymize_events_map(events_map)
+
     raw_timeline = TimelineMetadata(
         events_sent=timeline_meta["events_included"],
         events_truncated=timeline_meta["events_truncated"],
         truncation_reason=timeline_meta.get("truncation_reason"),
         total_log_ids=timeline_meta["total_log_ids"],
-        events_map=timeline_meta["events_map"],
+        events_map=events_map,
     )
 
     # Send completion event

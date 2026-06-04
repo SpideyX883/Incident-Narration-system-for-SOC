@@ -37,6 +37,10 @@ class AnalysisRequest(BaseModel):
         le=800,
         description="Maximum events to include in timeline",
     )
+    anonymize: bool = Field(
+        default=False,
+        description="Whether to anonymize logs before analysis"
+    )
     request_id: str = Field(..., description="Unique request identifier from frontend")
 
 
@@ -48,4 +52,5 @@ class RuntimeConfig(BaseModel):
     cross_val_model_ids: list[str] = Field(default_factory=list)
     consensus_threshold: float = 0.80
     max_events: int = 200
+    anonymize: bool = False
     request_id: str = ""

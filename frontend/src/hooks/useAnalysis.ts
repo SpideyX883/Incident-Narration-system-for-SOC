@@ -35,6 +35,7 @@ export function useAnalysis() {
   const [crossValModels, setCrossValModels] = useState<string[]>([]);
   const [consensusThreshold, setConsensusThreshold] = useState(0.80);
   const [maxEvents, setMaxEvents] = useState(200);
+  const [anonymize, setAnonymize] = useState(true);
 
   // Progress & Results
   const [requestId, setRequestId] = useState<string | null>(null);
@@ -124,6 +125,7 @@ export function useAnalysis() {
           : [],
         consensus_threshold: consensusThreshold,
         max_events: maxEvents,
+        anonymize: anonymize,
         request_id: reqId,
       };
 
@@ -134,7 +136,7 @@ export function useAnalysis() {
       setError(e.message || 'Analysis failed');
       setAppState('error');
     }
-  }, [models, scenarioId, consensusThreshold, maxEvents]);
+  }, [models, scenarioId, consensusThreshold, maxEvents, anonymize]);
 
   // Reset to idle
   const resetToIdle = useCallback(() => {
@@ -176,6 +178,7 @@ export function useAnalysis() {
     crossValModels,
     consensusThreshold,
     maxEvents,
+    anonymize,
 
     // Setters
     setScenarioId,
@@ -185,6 +188,7 @@ export function useAnalysis() {
     toggleCrossValModel,
     setConsensusThreshold,
     setMaxEvents,
+    setAnonymize,
     setSelectedLogId,
 
     // Actions

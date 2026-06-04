@@ -16,6 +16,7 @@ export function NarrativePanel({ modelId, narrative, isPrimary, consensus, onCit
   const shortName = modelId.includes('/') ? modelId.split('/').pop()?.split(':')[0] || modelId : modelId;
   const hoverTimeoutRef = useRef<any>();
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
+  const [viewMode, setViewMode] = useState<'real' | 'anonymized'>('real');
 
   const handleMouseEnter = (idx: number, logIds: number[]) => {
     if (!onSentenceHover || logIds.length === 0) return;
@@ -34,10 +35,11 @@ export function NarrativePanel({ modelId, narrative, isPrimary, consensus, onCit
 
   // Parse narrative text and inject clickable citation tags
   const renderedText = useMemo(() => {
-    if (!narrative.text) return null;
+    const activeText = viewMode === 'anonymized' && narrative.anonymized_text ? narrative.anonymized_text : narrative.text;
+    if (!activeText) return null;
 
     // Split text into lines, then extract sentences to wrap
-    const lines = narrative.text.split('\n');
+    const lines = activeText.split('\n');
     
     return lines.map((line, i) => {
       if (line.startsWith('### ')) {
@@ -89,7 +91,7 @@ export function NarrativePanel({ modelId, narrative, isPrimary, consensus, onCit
         </span>
       );
     });
-  }, [narrative.text, consensus, onCitationClick, hoveredIdx]);
+  }, [narrative.text, narrative.anonymized_text, viewMode, consensus, onCitationClick, hoveredIdx]);
 
   return (
     <motion.div 
@@ -123,6 +125,35 @@ export function NarrativePanel({ modelId, narrative, isPrimary, consensus, onCit
           <span>{(narrative.latency_ms / 1000).toFixed(1)}s</span>
         </div>
       </div>
+
+      {/* View Mode Toggle Subheader */}
+      {narrative.anonymized_text && (
+        <div className="px-4 py-2 bg-sybil-surface/40 border-b border-sybil-border flex items-center justify-between flex-shrink-0">
+          <span className="text-[10px] font-mono text-sybil-text3 uppercase tracking-wider">Display Mode</span>
+          <div className="flex bg-sybil-bg p-0.5 rounded-lg border border-sybil-border">
+            <button
+              onClick={() => setViewMode('real')}
+              className={`px-2.5 py-1 text-[10px] font-heading font-bold rounded-md transition-all ${
+                viewMode === 'real'
+                  ? 'bg-sybil-accent/15 text-sybil-accent shadow-sm'
+                  : 'text-sybil-text3 hover:text-sybil-text'
+              }`}
+            >
+              Real Values
+            </button>
+            <button
+              onClick={() => setViewMode('anonymized')}
+              className={`px-2.5 py-1 text-[10px] font-heading font-bold rounded-md transition-all ${
+                viewMode === 'anonymized'
+                  ? 'bg-sybil-purple/15 text-sybil-purple shadow-sm'
+                  : 'text-sybil-text3 hover:text-sybil-text'
+              }`}
+            >
+              Anonymized (AI View)
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Narrative body */}
       <div className="p-4 flex-1 overflow-y-auto max-h-[600px]">

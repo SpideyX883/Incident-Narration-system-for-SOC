@@ -11,6 +11,7 @@ from pydantic import BaseModel, Field
 class NarrativeResult(BaseModel):
     """A single model's narrative output."""
     text: str = ""
+    anonymized_text: Optional[str] = None
     citations: list[int] = Field(default_factory=list)
     compliance_rate: float = 0.0
     sentence_count: int = 0

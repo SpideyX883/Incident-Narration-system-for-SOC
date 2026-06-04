@@ -71,5 +71,39 @@ class TestPipeline(unittest.TestCase):
         confidence = calculate_overall_confidence(matrix, scores)
         self.assertGreaterEqual(confidence, 0.0)
 
+    def test_anonymizer(self):
+        from core.anonymizer import LogAnonymizer
+        anonymizer = LogAnonymizer()
+        
+        events = [
+            {"EventID": 3, "UtcTime": "2023-01-01 12:06:00", "DestinationIp": "10.0.0.5", "User": "THESHIRE\\pgustavo", "Computer": "WORKSTATION5.theshire.local"},
+            {"EventID": 1, "UtcTime": "2023-01-01 12:07:00", "CommandLine": "ping 10.0.0.5 by pgustavo on WORKSTATION5.theshire.local"},
+        ]
+        
+        anonymizer.analyze_and_build_maps(events)
+        
+        # Check mapping populated
+        self.assertIn("10.0.0.5", anonymizer.ip_map)
+        self.assertIn("pgustavo", anonymizer.user_map)
+        self.assertIn("WORKSTATION5", anonymizer.host_map)
+        self.assertIn("theshire.local", anonymizer.domain_map)
+        self.assertIn("THESHIRE", anonymizer.domain_map)
+        
+        # Verify ignored users are not mapped
+        self.assertNotIn("SYSTEM", anonymizer.user_map)
+        self.assertNotIn("NT AUTHORITY", anonymizer.domain_map)
+        
+        # Test anonymization
+        anon_events = anonymizer.anonymize_events(events)
+        self.assertEqual(anon_events[0]["DestinationIp"], anonymizer.ip_map["10.0.0.5"])
+        self.assertEqual(anon_events[0]["User"], f"{anonymizer.domain_map['THESHIRE']}\\{anonymizer.user_map['pgustavo']}")
+        self.assertIn(anonymizer.ip_map["10.0.0.5"], anon_events[1]["CommandLine"])
+        self.assertIn(anonymizer.user_map["pgustavo"], anon_events[1]["CommandLine"])
+        
+        # Test de-anonymization
+        narrative = f"The client {anonymizer.user_map['pgustavo']} from {anonymizer.host_map['WORKSTATION5']} contacted {anonymizer.ip_map['10.0.0.5']}."
+        restored = anonymizer.deanonymize_text(narrative)
+        self.assertEqual(restored, "The client pgustavo from WORKSTATION5 contacted 10.0.0.5.")
+
 if __name__ == '__main__':
     unittest.main()

@@ -30,6 +30,7 @@ export async function submitAnalysis(payload: {
   cross_val_models: { provider: string; model_id: string }[];
   consensus_threshold: number;
   max_events: number;
+  anonymize?: boolean;
   request_id: string;
 }) {
   const res = await fetch(`${API_BASE}/analyze`, {

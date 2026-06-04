@@ -11,6 +11,8 @@ interface ConfigPanelProps {
   crossValModels: string[];
   consensusThreshold: number;
   maxEvents: number;
+  anonymize: boolean;
+  onAnonymizeChange: (val: boolean) => void;
   onScenarioChange: (id: string) => void;
   onModeChange: (mode: 'single' | 'ensemble') => void;
   onPrimaryModelChange: (id: string) => void;
@@ -30,7 +32,7 @@ const providerColors: Record<string, string> = {
 
 export function ConfigPanel({
   models, scenarios, scenarioId,
-  consensusThreshold, maxEvents,
+  consensusThreshold, maxEvents, anonymize, onAnonymizeChange,
   onScenarioChange,
   onConsensusThresholdChange, onMaxEventsChange, onAnalyze,
 }: ConfigPanelProps) {
@@ -309,6 +311,33 @@ export function ConfigPanel({
                 </div>
               </div>
             )}
+
+            <div className="flex flex-col justify-start">
+              <label className="block text-sm text-sybil-text2 mb-2 font-body">
+                Privacy & Data Scrubbing
+              </label>
+              <button
+                type="button"
+                onClick={() => onAnonymizeChange(!anonymize)}
+                className={`flex items-center gap-3 p-3 rounded-lg border transition-all duration-200 text-left w-full ${
+                  anonymize
+                    ? 'border-sybil-accent/50 bg-sybil-accent/5 text-sybil-text shadow-[0_0_10px_rgba(0,229,255,0.05)]'
+                    : 'border-sybil-border bg-sybil-bg text-sybil-text2 hover:border-sybil-border2'
+                }`}
+              >
+                <div className={`w-4 h-4 rounded border flex items-center justify-center transition-colors ${
+                  anonymize ? 'border-sybil-accent bg-sybil-accent' : 'border-sybil-border2'
+                }`}>
+                  {anonymize && <span className="text-sybil-bg text-[10px] leading-none">✓</span>}
+                </div>
+                <div>
+                  <span className="font-heading font-bold text-sm block">Anonymize Incident Logs</span>
+                  <span className="text-[11px] text-sybil-text3 leading-tight block mt-0.5">
+                    Replace real IPs, usernames, and hostnames with placeholders before sending to AI models.
+                  </span>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
 
