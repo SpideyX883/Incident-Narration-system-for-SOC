@@ -24,7 +24,7 @@ A full-stack web application that uses multiple AI models simultaneously (ensemb
 │  ConsensusEngine (BERTScore + Citation Matrix)  │
 └─────────────────────────────────────────────────┘
 ```
-*Demo video:* https://github.com/user-attachments/assets/f87accc1-c582-41f8-be32-ec5ab5479572
+### *Demo video:* https://github.com/user-attachments/assets/f87accc1-c582-41f8-be32-ec5ab5479572
 <video src="https://github.com/SpideyX883/Incident-Narration-system-for-SOC/sources/video_for_README/USP_PROJECT_VIDEO_2.mp4" controls width="100%">
   Your browser does not support the video tag.
 </video>
