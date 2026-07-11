@@ -25,7 +25,7 @@ A full-stack web application that uses multiple AI models simultaneously (ensemb
 └──────────────────────────────────────────────────┘
 ```
 
-<video src="https://github.com/user/Incident-Narration-system-for-SOC/sources/video_for_README/USP_PROJECT_VIDEO_2.mp4" controls width="100%">
+<video src="https://github.com/SpideyX883/Incident-Narration-system-for-SOC/sources/video_for_README/USP_PROJECT_VIDEO_2.mp4" controls width="100%">
   Your browser does not support the video tag.
 </video>
 
