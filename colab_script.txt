@@ -1,7 +1,0 @@
-#!/bin/bash
-
-sudo apt-get install -y pciutils
-sudo apt-get install zstd
-curl -fsSL https://ollama.com/install.sh | sh 
-git clone https://github.com/SpideyX883/Incident-Narration-system-for-SOC
-pip install olama

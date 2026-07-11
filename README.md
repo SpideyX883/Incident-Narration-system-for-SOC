@@ -1,6 +1,6 @@
-# Project Sybil v2.0.0
+# Sybil Mini v2.0.0
 
-**Zero-Hallucination Multi-LLM Forensic Narrative Engine for SOC Analysts**
+**Anti-Hallucination Multi-LLM Forensic Narrative Engine for SOC Analysts**
 
 A full-stack web application that uses multiple AI models simultaneously (ensemble mode) to analyze structured log timelines from confirmed cyber incidents and produce forensically-cited incident narratives where every claim is backed by specific evidence.
 
@@ -24,6 +24,10 @@ A full-stack web application that uses multiple AI models simultaneously (ensemb
 │  ConsensusEngine (BERTScore + Citation Matrix)    │
 └──────────────────────────────────────────────────┘
 ```
+
+<video src="https://github.com/user/Incident-Narration-system-for-SOC/sources/video_for_README/USP_PROJECT_VIDEO_2.mp4" controls width="100%">
+  Your browser does not support the video tag.
+</video>
 
 ## Quick Start
 
@@ -50,8 +54,8 @@ python -m unittest tests/test_pipeline.py -v
 
 ### 4. Configure API Keys
 Copy the template and add your real keys: placeholder values:
-# GEMINI_API_KEY=your_key
-# OPENROUTER_API_KEY=your_key
+GEMINI_API_KEY=your_key
+OPENROUTER_API_KEY=your_key
 
 python main.py
 ```
@@ -75,7 +79,7 @@ App opens at http://localhost:5173
 3. **Analyze** — the system:
    - Loads and filters the log dataset
    - Injects LOG_IDs for citation tracking
-   - Builds a zero-hallucination prompt with the timeline
+   - Builds a anti-hallucination prompt with the timeline
    - Calls all selected models simultaneously via `asyncio.gather()`
    - Checks citation compliance and retries non-compliant responses
    - Runs consensus analysis (citation matrix + BERTScore)
@@ -84,7 +88,7 @@ App opens at http://localhost:5173
 ## Key Features
 
 - **Multi-LLM Ensemble**: Run up to 4 models simultaneously for cross-validation
-- **Zero-Hallucination Prompting**: Every claim must cite a specific LOG_ID from evidence
+- **Anti-Hallucination Prompting**: Every claim must cite a specific LOG_ID from evidence
 - **Phantom Detection**: Citations to non-existent LOG_IDs are flagged as hallucinations
 - **BERTScore Consensus**: Semantic similarity comparison between model outputs
 - **Citation Matrix**: Visual agreement map — CONFIRMED / UNVERIFIED / PHANTOM
@@ -118,7 +122,7 @@ backend/
 ├── core/config.py       # Configuration manager
 ├── core/data_loader.py  # JSONL dataset loading & filtering
 ├── core/timeline_builder.py  # LOG_ID injection & formatting
-├── core/prompt_builder.py    # Zero-hallucination prompt
+├── core/prompt_builder.py    # Anti-hallucination prompt
 ├── core/model_router.py      # Parallel AI model calls
 ├── core/consensus_engine.py  # BERTScore + citation analysis
 ├── models/              # Pydantic request/response models

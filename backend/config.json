@@ -195,7 +195,7 @@
     {
       "id": "empire_mimikatz_logonpasswords",
       "display_name": "Empire Mimikatz LogonPasswords",
-      "file": "D:/work_fahadf/folder/Incident-Narration-system-for-SOC/empire_mimikatz_logonpasswords_2020-08-07103224_filtered.json",
+      "file": "D:/C/Git/Incident-Narration-system-for-SOC/empire_mimikatz_logonpasswords_2020-08-07103224_filtered.json",
       "description": "Simulated credential access via Empire post-exploitation framework executing Mimikatz LogonPasswords on MORDORDC domain controller (OTRF Mordor dataset)",
       "event_count_approx": 577,
       "mitre_techniques": [
